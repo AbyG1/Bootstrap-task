@@ -2,7 +2,9 @@
     font-family: 'Playfair Display', serif;
 }
 
-
+section{
+    padding: 60px 0;
+}
 
 nav {
     background-color: #44436C;
@@ -69,4 +71,39 @@ nav a {
 
   #home p {
     font-size: 40px;
+  }
+
+  #home {
+    padding: 0px;
+  }
+
+  .fade-in {
+    animation: fadeIn 10s;
+  }
+
+  @keyframes fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1;}    
+  }
+
+
+  #wheels {
+    background-color:#44436C;
+
+  }
+
+
+  #wheels img {
+    width: 62rem;
+  }
+  .wheel {
+    height: 75vh;
+  }
+
+  .wheel a {
+    text-decoration:none;
+  } 
+
+  .wheel p {
+    font-size: 22px;
   }
