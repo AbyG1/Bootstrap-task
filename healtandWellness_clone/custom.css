@@ -1,15 +1,22 @@
 * {
     font-family: 'Playfair Display', serif;
+    color: white;
+    
 }
 
 section{
     padding: 60px 0;
 }
 
-nav {
+.color1{
     background-color: #44436C;
-    color: white;
 }
+
+.color2 {
+    background-color: #58578B;
+}
+
+
 
 nav div img {
     width: 1.2rem;
@@ -45,9 +52,7 @@ nav a {
        
       }
 
-.border1 {
-    border-bottom: 2px solid white
-}
+
 
 .centered {
    
@@ -87,15 +92,11 @@ nav a {
   }
 
 
-  #wheels {
-    background-color:#44436C;
-
-  }
-
-
   #wheels img {
     width: 62rem;
   }
+
+
   .wheel {
     height: 75vh;
   }
@@ -106,4 +107,37 @@ nav a {
 
   .wheel p {
     font-size: 22px;
+  }
+
+
+  .marg {
+
+    height: 300px;
+   
+
+  } 
+
+  #pillars {
+    padding-bottom: 0px;
+  }
+
+  #pillars h1{
+    font-size: 88px;
+  }
+
+  #pillars p {
+    font-size: 28px;
+  }
+
+  #pillars img {
+    
+  }
+
+  #pillars h2 {
+    font-size:50px;
+    
+  }
+
+  #pillars p {
+    font-size: 28px;
   }
