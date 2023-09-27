@@ -1,0 +1,72 @@
+* {
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+nav {
+    background-color: #44436C;
+    color: white;
+}
+
+nav div img {
+    width: 1.2rem;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+
+.navbar img {
+    width: 10rem;
+}
+
+.navbar h1 {
+    font-style: italic;
+}
+
+
+
+    .parallax {
+        /* The image used */
+        background-image: url("assets/lotus.jpg");
+      
+        /* Set a specific height */
+        min-height: 150vh; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment:fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+      }
+
+.border1 {
+    border-bottom: 2px solid white
+}
+
+.centered {
+   
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+   
+  }
+
+
+  .text-main {
+    text-shadow:0 0 5px black;
+    width: 100%;
+  }
+
+  #home h1 {
+    font-size: 88px
+  }
+
+  #home p {
+    font-size: 40px;
+  }
