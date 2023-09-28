@@ -4,9 +4,7 @@
     
 }
 
-section{
-    padding: 60px 0;
-}
+
 
 .color1{
     background-color: #44436C;
@@ -70,20 +68,10 @@ nav a {
     width: 100%;
   }
 
-  #home h1 {
-    font-size: 88px
-  }
-
-  #home p {
-    font-size: 40px;
-  }
-
-  #home {
-    padding: 0px;
-  }
+ 
 
   .fade-in {
-    animation: fadeIn 10s;
+    animation: fadeIn 5s;
   }
 
   @keyframes fade-in {
@@ -117,9 +105,6 @@ nav a {
 
   } 
 
-  #pillars {
-    padding-bottom: 0px;
-  }
 
   #pillars h1{
     font-size: 88px;
@@ -129,9 +114,7 @@ nav a {
     font-size: 28px;
   }
 
-  #pillars img {
-    
-  }
+ 
 
   #pillars h2 {
     font-size:50px;
@@ -141,3 +124,15 @@ nav a {
   #pillars p {
     font-size: 28px;
   }
+
+  
+
+  #img img{
+    width: 100%;
+  }
+
+  #footer {
+    height: 50px;
+  }
+
+ 
