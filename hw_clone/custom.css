@@ -136,3 +136,33 @@ nav a {
   }
 
  
+
+  .imagetext1 {
+    
+   
+      position: absolute;
+      top: 925%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      
+  }
+
+  .imagetext2{
+    
+   
+    position: absolute;
+    top: 1050%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+@media only screen and (max-width: 400px) {
+  .imagetext1{
+    top: 1117%;
+  }
+
+  .imagetext2{
+    top: 1150%;
+  }
+}
