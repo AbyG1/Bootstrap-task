@@ -1,0 +1,31 @@
+.icon-img {
+    width: 16.8rem;
+}
+
+ 
+.n-link {
+    position: relative;
+    color:#6d1d8e;
+    text-decoration: none;
+  }
+  
+  a.n-link:hover {
+    color:#6d1d8e;
+  }
+  
+  .n-link::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #6d1d8e;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  .n-link:hover::before {
+    transform: scaleX(1);
+  }
