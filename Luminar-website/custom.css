@@ -29,3 +29,21 @@
   .n-link:hover::before {
     transform: scaleX(1);
   }
+
+.sec-1 img{
+    width: 12rem;
+}
+.sec-2 img{
+    width: 5.3rem;
+}
+
+.colorp{
+    color:#6d1d8e;
+}
+
+  button.colorp {
+    background-color: #6d1d8e;
+    border:none;
+    padding: 10px 20px;
+  }
+
