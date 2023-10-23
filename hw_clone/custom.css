@@ -137,32 +137,19 @@ nav a {
 
  
 
-  .imagetext1 {
-    
-   
-      position: absolute;
-      top: 925%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      
-  }
 
-  .imagetext2{
-    
-   
-    position: absolute;
-    top: 1050%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
+
+.img-container {
+    position: relative;
+
 }
 
-@media only screen and (max-width: 400px) {
-  .imagetext1{
-    top: 7480px;
-  }
-
-  .imagetext2{
-    top: 7690px;
-  }
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
+
+
