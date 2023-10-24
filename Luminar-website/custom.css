@@ -72,11 +72,7 @@
 
 
   .img-wrapper {
-    position: relative;
-    
-    border: 2px solid red;
-  
-     
+    position: relative; 
   }
 
 
@@ -85,7 +81,7 @@
       object-fit: cover;
       width:100%;
       display: block;
-      border: 2px solid red;
+      
       
     
   }
@@ -94,13 +90,29 @@
   .img-wrapper > .content {
     position: absolute;
     inset:0;
-    background: rgba(121,56,145,.4);
+    background: rgb(121,56,145, .7);
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
 
+.img-wrapper > img,
+.img-wrapper > .content {
+    transition: 200ms ease-in-out;
+}
 
+
+.img-wrapper:hover > img.zoom {
+  transform: scale(1.1);
+}
+
+.img-wrapper > .content {
+  opacity: 0;
+}
+
+.img-wrapper:hover > .content {
+  opacity: 1;
+}
 
 
