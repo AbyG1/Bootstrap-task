@@ -154,7 +154,7 @@
 
 
 .crd-bd:hover > .card-logo{
-  background-color: #ac3fde;
+  background-color: #9625cb;
 }
 
 .crd-bd:hover {
@@ -170,4 +170,8 @@
 
 #program .crd-height {
  height: 28rem;
+}
+
+#program {
+  
 }
