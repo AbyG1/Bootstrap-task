@@ -90,11 +90,8 @@
   .img-wrapper > .content {
     position: absolute;
     inset:0;
-    background: rgb(121,56,145, .7);
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center;
-     */
+    background: rgba(121,56,145, .7);
+   
 }
 
 .img-wrapper > img,
@@ -119,7 +116,58 @@
   padding:0;
   margin: 0;
   color: white;
+
+}
+
+
+.programs {
+  background-color: #6d1d8e;
+}
+
+.card-logo{
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background: rgba(121,56,145, .7);
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.c-logo{
+  width: 3rem; 
+  
+}
+
+.card h5, .card a {
+    color:#8e4aac;
+}
+
+.card p {
+  margin:0;
+  padding:0;
+}
+
+.crd-bd {
+  background: rgba(121,56,145, .3);
+}
+
+
+.crd-bd:hover > .card-logo{
+  background-color: #ac3fde;
+}
+
+.crd-bd:hover {
+  background-color:white;
+}
+
+
+.crd1 {
+  margin-top: 7rem;
   
 }
 
 
+#program .crd-height {
+ height: 25rem;
+}
