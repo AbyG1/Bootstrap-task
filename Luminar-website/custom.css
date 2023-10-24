@@ -172,6 +172,11 @@
  height: 28rem;
 }
 
-#program {
-  
+#instagram h1 img {
+  width: 3.5rem;
+  margin-right: 1rem;
+}
+
+#instagram h1 {
+  color:#6d1d8e;
 }
