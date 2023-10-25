@@ -211,9 +211,12 @@
   width: 3rem;
 }
 
+#features .card {
+  transition: 600ms ease-in-out;
+}
 
 #features .card:hover {
   transform:scale(1.1);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 #631983, 0 6px 20px 0 #6c1b8f;
 
 }
