@@ -247,3 +247,20 @@ i.quotes{
 .img-size{
   width: 3rem;
 }
+
+
+
+.simg2,.simg1 {
+  width: 12rem;
+  position: absolute;
+  z-index: 3
+}
+
+.simg2 {
+  top: 12rem;
+  left: 16rem;
+}
+
+.simg1{
+  bottom:12rem ;
+}
