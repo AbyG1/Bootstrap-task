@@ -220,3 +220,23 @@
   box-shadow: 0 4px 8px 0 #631983, 0 6px 20px 0 #6c1b8f;
 
 }
+
+
+.rev {
+ color:#631983;
+}
+
+i.quotes{
+  color:#631983;
+  font-size: 3rem;
+}
+
+.star{
+  color:orange;
+}
+
+.arrow {
+  color:#631983;
+  font-size: 4rem;
+}
+
