@@ -72,6 +72,24 @@ nav img {
     opacity:0.8 ;
 }
 
+.center-container {
+    position: relative;
+
+} 
+.center-container img { 
+    width: 100%;
+    height: 35rem;
+    object-fit:cover;
+}
+.center-container > .content {
+    position: absolute;
+    inset:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    
+}
 
 
 
