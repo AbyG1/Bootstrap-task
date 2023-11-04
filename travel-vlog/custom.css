@@ -48,3 +48,37 @@ nav img {
 .img-col:hover{
     background-color: #393a3e;
 }
+
+
+.countries img {
+    height: 25rem;
+    object-fit: cover;
+} 
+
+.img-wrapper{
+    position: relative;
+}
+
+.img-wrapper > .content {
+    position:absolute;
+    inset:0;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-wrapper:hover{
+    opacity:0.8 ;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .countries img {
+        height: 10rem;
+        object-fit: cover;
+    } 
+  }
