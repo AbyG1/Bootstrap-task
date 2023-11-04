@@ -96,7 +96,21 @@ nav img {
     transform: scale(1.1);
 }
 
+.color3{
+    background-color: #020e37;
+}
 
+
+footer img {
+    width: 5rem;
+    height: 5rem;
+    align-self: 1/1;
+    object-fit: contain;
+}
+
+.fb{
+    width: 2.5rem;
+}
 
 @media (max-width: 768px) {
     .countries img {
