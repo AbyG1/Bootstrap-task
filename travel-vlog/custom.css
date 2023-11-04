@@ -42,3 +42,9 @@ nav img {
 .bg-color{
     background-color: #1D1F26;
 }
+
+
+
+.img-col:hover{
+    background-color: #393a3e;
+}
